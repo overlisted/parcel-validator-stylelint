@@ -4,7 +4,7 @@ const stylelint = require("stylelint");
 const convert = {
   warning: (file, code, warning) => ({
     message: warning.text,
-    origin: "@parcel/validator-stylelint",
+    origin: "parcel-validator-stylelint",
     name: warning.rule,
     filePath: file,
     codeFrame: {
@@ -17,12 +17,12 @@ const convert = {
   }),
   deprecation: (stylelintrc, deprecation) => ({
     message: `${deprecation.text} (see ${deprecation.reference})`,
-    origin: "@parcel/validator-stylelint",
+    origin: "parcel-validator-stylelint",
     filePath: stylelintrc
   }),
   invalidOptionWarning: (stylelintrc, warning) => ({
     message: warning.text,
-    origin: "@parcel/validator-stylelint",
+    origin: "parcel-validator-stylelint",
     filePath: stylelintrc
   })
 };
