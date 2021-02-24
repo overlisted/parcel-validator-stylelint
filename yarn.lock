@@ -1451,21 +1451,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@parcel/validator-stylelint@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@parcel/validator-stylelint@workspace:."
-  dependencies:
-    "@babel/cli": ^7.13.0
-    "@babel/core": ^7.13.1
-    "@parcel/babel-preset": ^2.0.0-alpha.2
-    "@parcel/plugin": 2.0.0-beta.1
-    "@parcel/utils": 2.0.0-beta.1
-    stylelint: ^6.0.0
-  peerDependencies:
-    stylelint: ^6.0.0
-  languageName: unknown
-  linkType: soft
-
 "JSONStream@npm:^0.8.4":
   version: 0.8.4
   resolution: "JSONStream@npm:0.8.4"
@@ -4296,6 +4281,21 @@ fsevents@~2.3.1:
   checksum: 20983f3765466c1ab617ed153cb53b70ac5df828d854a3334d185e20b37f436e9096f12bc1b7fc96d8908dc927a3685172d3d89e755774f57b7103460c54dcc5
   languageName: node
   linkType: hard
+
+"parcel-validator-stylelint@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "parcel-validator-stylelint@workspace:."
+  dependencies:
+    "@babel/cli": ^7.13.0
+    "@babel/core": ^7.13.1
+    "@parcel/babel-preset": ^2.0.0-alpha.2
+    "@parcel/plugin": 2.0.0-beta.1
+    "@parcel/utils": 2.0.0-beta.1
+    stylelint: ^6.0.0
+  peerDependencies:
+    stylelint: ^6.0.0
+  languageName: unknown
+  linkType: soft
 
 "parse-json@npm:^2.2.0":
   version: 2.2.0
