@@ -12,3 +12,11 @@ A Parcel 2 validator plugin for Stylelint.
   }
 }
 ```
+
+## Known issues
+### Warning highlight locations
+Stylelint doesn't provide any information on where the broken places stop, so this plugin simply assumes that it's the end of the line.
+Sometimes it's not, but that's the best I can do without doing any additional CSS parsing. 
+
+### `@parcel/` package scope
+Having this package under the `@parcel/` package scope would require incorporating it into Parcel's repository, and I don't want to do that yet.
