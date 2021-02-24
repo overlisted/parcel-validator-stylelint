@@ -1,0 +1,27 @@
+{
+  "name": "@parcel/validator-stylelint",
+  "version": "1.0",
+  "license": "GPL-3.0-or-later",
+  "main": "lib/StylelintValidator.js",
+  "source": "src/StylelintValidator.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "engines": {
+    "node": ">= 12.0.0",
+    "parcel": "^2.0.0-beta.1"
+  },
+  "dependencies": {
+    "@parcel/plugin": "2.0.0-beta.1",
+    "@parcel/utils": "2.0.0-beta.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.13.1",
+    "@parcel/babel-preset": "^2.0.0-alpha.2",
+    "stylelint": "^6.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^6.0.0"
+  }
+}
