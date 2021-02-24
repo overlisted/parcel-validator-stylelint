@@ -1,11 +1,14 @@
 {
   "name": "parcel-validator-stylelint",
-  "version": "1.0",
+  "version": "1.0.0",
   "license": "GPL-3.0-or-later",
   "main": "lib/StylelintValidator.js",
   "source": "src/StylelintValidator.js",
   "author": "overlisted <mail@overlisted.net> (https://overlisted.net)",
   "bugs": "https://github.com/overlisted/parcel-validator-stylelint/issues",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "parcel",
     "parcel2",
